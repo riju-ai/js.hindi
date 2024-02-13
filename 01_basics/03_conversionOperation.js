@@ -16,7 +16,7 @@ console.log (typeof (score));   */   // in this case the output came as number
 // console.log (typeof valueInNumber);
 // console.log (valueInNumber);
 
-
+f
 
 
 // let score = null
@@ -128,3 +128,11 @@ num1= num2= num3= 2+2
 let gameCounter = 100
 gameCounter++;                  //prefix and postfix from jxand ndm
 console.log(gameCounter);
+
+
+
+let something = "anything"
+
+something.forOf((item)=>{
+    console.log(item);
+})
