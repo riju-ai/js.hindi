@@ -55,6 +55,11 @@
 // Function - function(object)
 // Object - object
 
+
+// ********************************* 
+
+//  Stack (Primitive),   Heap (Non-Primitive)
+
 let ironMan = "tony"
 
 let avanger = ironMan
