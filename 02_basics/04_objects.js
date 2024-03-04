@@ -27,7 +27,7 @@ const obj2 = { 3:"C" , 4:"D"}
 // console.log(obj3);
 
 const obj3 = {...obj1,...obj2}   //   -------- Spread Operator
-console.log(obj3);
+// console.log(obj3);
 
 // when the value came form databse
 
@@ -46,10 +46,35 @@ const user = [
     }
 ]
 user[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseinstructor: "Hitesh"
+}
+const {courseinstructor: instructor} = course
+
+// console.log(courseinstructor);
+console.log(instructor);
+
+// json
+
+// {
+//     name: "riju",
+//     coursename: "js in hindi",
+//     price: "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
